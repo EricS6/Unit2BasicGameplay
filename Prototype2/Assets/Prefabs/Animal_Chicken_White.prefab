@@ -980,6 +980,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6699416777502041837}
   - component: {fileID: 6699416777502041838}
+  - component: {fileID: 5561226314690616036}
   m_Layer: 0
   m_Name: SA_Animals_Chicken_White
   m_TagString: Untagged
@@ -995,7 +996,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6699416777502041836}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -0.72, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 6699416777650767939}
@@ -1071,6 +1072,19 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.0000009536743, y: -0.07978153, z: 1.2678552}
     m_Extent: {x: 3.9085295, y: 8.594743, z: 10.12587}
   m_DirtyAABB: 0
+--- !u!65 &5561226314690616036
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6699416777502041836}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 7.66, y: 15.8, z: 20.251738}
+  m_Center: {x: 0.00000095367426, y: 8.59473, z: 1.267855}
 --- !u!1 &6699416777602668710
 GameObject:
   m_ObjectHideFlags: 0
@@ -1215,6 +1229,8 @@ GameObject:
   - component: {fileID: 6699416777650767938}
   - component: {fileID: 6699416777650767937}
   - component: {fileID: 1451092668}
+  - component: {fileID: 6299753418580707358}
+  - component: {fileID: 6543505064475058962}
   m_Layer: 0
   m_Name: Animal_Chicken_White
   m_TagString: Untagged
@@ -1286,6 +1302,31 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 56bfc205b37c21745bcd99e6afa877a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &6299753418580707358
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6699416777650767936}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 7.66, y: 17.2, z: 20.25174}
+  m_Center: {x: 0, y: 8.59473, z: 1.267855}
+--- !u!114 &6543505064475058962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6699416777650767936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6c015ee058d52a4ebf9ef33051f8ed9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &6699416777672256268

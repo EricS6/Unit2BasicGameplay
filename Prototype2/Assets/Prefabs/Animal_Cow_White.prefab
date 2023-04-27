@@ -946,6 +946,8 @@ GameObject:
   - component: {fileID: 7370699570773563156}
   - component: {fileID: 7370699570773563157}
   - component: {fileID: 1225794103}
+  - component: {fileID: 2422893961776742540}
+  - component: {fileID: 8755716570275226113}
   m_Layer: 0
   m_Name: Animal_Cow_White
   m_TagString: Untagged
@@ -1010,6 +1012,31 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 56bfc205b37c21745bcd99e6afa877a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &2422893961776742540
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7370699570773563154}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.17241, y: 32.57899, z: 48.40882}
+  m_Center: {x: 0, y: 16.28947, z: 0.2914352}
+--- !u!114 &8755716570275226113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7370699570773563154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6c015ee058d52a4ebf9ef33051f8ed9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &7370699570823035915
@@ -1705,6 +1732,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7370699571743708241}
   - component: {fileID: 7370699571743708240}
+  - component: {fileID: 561885636286148577}
   m_Layer: 0
   m_Name: SA_Animals_Cow_White
   m_TagString: Untagged
@@ -1822,6 +1850,19 @@ SkinnedMeshRenderer:
     m_Center: {x: 0, y: -7.0392914, z: 19.432642}
     m_Extent: {x: 5.5862083, y: 16.289497, z: 24.204412}
   m_DirtyAABB: 0
+--- !u!65 &561885636286148577
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7370699571743708238}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.172415, y: 32.57899, z: 48.40882}
+  m_Center: {x: -3.9443043e-31, y: 16.289469, z: 0.29143524}
 --- !u!1 &7370699571766082217
 GameObject:
   m_ObjectHideFlags: 0
